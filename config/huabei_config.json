@@ -1,0 +1,17 @@
+{
+  "model_name": "classifier",
+  "epochs": 20,
+  "checkpoint_every": 1000,
+  "eval_every": 1000,
+  "learning_rate": 5e-5,
+  "sequence_length": 169,
+  "batch_size": 48,
+  "num_classes": 1,
+  "warmup_rate": 0.1,
+  "output_path": "output/huabei",
+  "bert_model_path": "model/pre_model/albert_tiny_489k",
+  "train_data": "data/huabei/train-5.6w.txt",
+  "eval_data": "data/huabei/validate-5.6w.txt",
+  "ckpt_model_path": "model/save_huabei"
+}
+
